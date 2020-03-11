@@ -20,7 +20,7 @@
         <allure.version>2.13.1</allure.version>
         <webdrivermanager.version>3.3.0</webdrivermanager.version>
         <slf4j.version>1.7.26</slf4j.version>
-        <log4j.version>1.2.17</log4j.version>
+        <log4j.version>2.13.1</log4j.version>
         <aspectj.version>1.8.10</aspectj.version>
         <ashot.version>1.5.3</ashot.version>
         <maven.surefire.version>2.7.2</maven.surefire.version>
@@ -58,7 +58,7 @@
         <dependency>
             <groupId>org.apache.logging.log4j</groupId>
             <artifactId>log4j-api</artifactId>
-            <version>2.13.1</version>
+            <version>${log4j.version}</version>
         </dependency>
         <dependency>
             <groupId>org.slf4j</groupId>
